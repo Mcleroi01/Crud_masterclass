@@ -1,0 +1,97 @@
+*{
+    margin: auto;
+}
+
+.contenaire{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+    
+
+.contenaire .register{
+    max-width: 250px;
+    margin: 25px 50px;
+}
+.contenaire .register .title{
+    text-align: center;
+    margin: 0;
+    color: #4caf50;
+    font-size: 40px;
+    
+
+}
+.contenaire .register  .title span{
+    background-color: #4caf50;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    font-size: 50px;
+    
+    
+
+}
+.contenaire .register .enter{
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: #4caf50;
+    margin: 10px;
+    
+    
+
+}
+.contenaire .enter:hover{
+    border: 3px solid #4caf50;
+
+    
+    
+
+}
+.contenaire .register .btn{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+
+    
+    
+}
+
+@media screen {
+    
+}
+
+.contenaire .list-users legend{
+    
+    
+}
+.contenaire .list-users{
+    
+
+}
+
+
+
+.contenaire .list-users table{
+    border-collapse: collapse;
+}
+.contenaire .list-users table.list{
+    width: 100%;
+}
+td, th{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 1px 80px;
+    background-color: #4caf50;
+    color: white;
+}
+tr:nth-child(even),table.list thead>tr{
+    background-color: #ddd;
+}

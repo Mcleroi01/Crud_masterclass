@@ -14,25 +14,25 @@
     <div class="contenaire">
         <div class="register">
             <h1 class="title">Users <span> In</span></h1>
-            <form action="" id="form" onsubmit="onFormSubmit(e)">
-                <input type="text" placeholder="name" id="name" class="enter">
-                <input type="text" placeholder="last-name" id="last-name" class="enter">
+            <form action="" id="form" >
+                <input type="text" placeholder="write your name" id="name" class="enter">
+                <input type="text" placeholder="write your username" id="username" class="enter">
                 <input type="email" placeholder="email" id="mail" class="enter">
-                <input type="submit" value="Save" class="btn" id="submit" onclick="newUser(e)">
-                <input type="reset" value="Update" class="btn" id="reset" onclick="resetForm()">
+                <input type="submit" value="Save" class="btn-add" id="submit" onclick="">
+                <input type="reset" value="Update" class="btn-reset" id="reset" onclick="resetForm()">
             </form>
         </div>
         <div class="List-users">
             <legend>List <span> Users </span></legend>
             <table>
-                <thead id="list">
+                <thead>
                     <tr class="list">
-                        <td>name</td>
+                        <td >name</td>
                         <td>Last-name</td>
                         <td>Email</td>
                     </tr>
                 </thead>
-                <tbody ></tbody>
+                <tbody class="employeeList"></tbody>
 
 
             </table>

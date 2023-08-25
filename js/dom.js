@@ -22,7 +22,6 @@ form.addEventListener('submit', function (e) {
 
     };
     contacts.push(user)
-    // form.reset()
     View()
 
 
@@ -34,14 +33,16 @@ function View() {
     listView.innerHTML = ""
 
     for (let i = 0; i < contacts.length; i++) {
+        
         let add = `<tr>
-        <td class="">${contacts[i].name}</td>
-        <td>${contacts[i].username}</td>
-        <td>${contacts[i].mail}</td>
-        <td><button type="button" onclick="delete" (${i})>Delete</button> <button type="button" onclick="Delete()" (${i})>Update</button></td>
+        <td class="row">${contacts[i].name}</td>
+        <td class="row">${contacts[i].username}</td>
+        <td class="row">${contacts[i].mail}</td>
+        <td class="row"><button type="button" onclick="Delete" (${i})>Delete</button> <button type="button" onclick="" (${i})>Update</button></td>
         
         </tr>`
         listView.innerHTML += add
+        
 
     }
 
@@ -53,9 +54,11 @@ function Delete(i) {
 
 
 }
-function reset() {
+function reset(e) {
 
-    listView
+    e=listView.innerHTML=''
+    View();
+
     
 }
 

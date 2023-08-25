@@ -49,7 +49,7 @@
     
 
 }
-.contenaire .register .btn{
+.contenaire .register .btn-add{
     background-color: #4caf50;
     border: none;
     color: white;
@@ -68,11 +68,19 @@
     
 }
 
-.contenaire .list-users legend{
+.contenaire .list-users .title{
+
+    background-color: #4caf50;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    font-size: 50px;
     
     
 }
-.contenaire .list-users{
+.contenaire .list-users .title span {
+    color: #4caf50;
     
 
 }
@@ -91,6 +99,25 @@ td, th{
     padding: 1px 80px;
     background-color: #4caf50;
     color: white;
+    
+}
+tbody tr .row{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 1px 80px;
+    
+    background-color: #dddddd41;
+    color: rgb(0, 0, 0);
+}
+tbody tr .row:hover{
+    background-color: rgb(255, 255, 255);
+    
+}
+tbody tr .row button{
+    border: none;
+    background-color: #026505;
+    color: white;
+    
 }
 tr:nth-child(even),table.list thead>tr{
     background-color: #ddd;
